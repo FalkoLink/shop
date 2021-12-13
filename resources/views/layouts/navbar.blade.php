@@ -29,13 +29,134 @@
                 Категории
             </a>
         </div>
-        <div class="offcanvas offcanvas-start" tabindex="-1" id="categories" aria-labelledby="offcanvasWithBackdropLabel">
-            <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasWithBackdropLabel">Категории</h5>
-                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="categories" aria-labelledby="offcanvasLabel">
+            <div class="offcanvas-header bg-dark text-light">
+                <h3 class="offcanvas-title fw-bolder" id="offcanvasLabel">Категории</h3>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
             </div>
             <div class="offcanvas-body">
-                <p>.....</p>
+                <h5 class="p-2 fw-bold">Мужская одежда</h5>
+                <div class="ps-3">
+                    <div class="accordion" id="accordion1">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-heading1m">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse1m" aria-expanded="false" aria-controls="flush-collapse1m">
+                                    Верхняя одежда
+                                </button>
+                            </h2>
+                            <div id="flush-collapse1m" class="accordion-collapse collapse" aria-labelledby="flush-heading1m" data-bs-parent="#accordion1">
+                                    <div class="list-group list-group-flush">
+                                        <a href="#" class="list-group-item active">Простой элемент группы списка по умолчанию</a>
+                                        <a href="#" class="list-group-item">Простой элемент группы списка по умолчанию</a>
+                                        <a href="#" class="list-group-item">Простой элемент группы списка по умолчанию</a>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-heading2m">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse2m" aria-expanded="false" aria-controls="flush-collapse2m">
+                                    Нижняя одежда
+                                </button>
+                            </h2>
+                            <div id="flush-collapse2m" class="accordion-collapse collapse" aria-labelledby="flush-heading2m" data-bs-parent="#accordion1">
+                                <div class="list-group list-group-flush">
+                                    <a href="#" class="list-group-item active">Простой элемент группы списка по умолчанию</a>
+                                    <a href="#" class="list-group-item">Простой элемент группы списка по умолчанию</a>
+                                    <a href="#" class="list-group-item">Простой элемент группы списка по умолчанию</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-heading3m">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse3m" aria-expanded="false" aria-controls="flush-collapse3m">
+                                    Обувь
+                                </button>
+                            </h2>
+                            <div id="flush-collapse3m" class="accordion-collapse collapse" aria-labelledby="flush-heading3m" data-bs-parent="#accordion1">
+                                <div class="list-group list-group-flush">
+                                    <a href="#" class="list-group-item active">Простой элемент группы списка по умолчанию</a>
+                                    <a href="#" class="list-group-item">Простой элемент группы списка по умолчанию</a>
+                                    <a href="#" class="list-group-item">Простой элемент группы списка по умолчанию</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-heading4m">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4m" aria-expanded="false" aria-controls="flush-collapse4m">
+                                    Акссесуары
+                                </button>
+                            </h2>
+                            <div id="flush-collapse4m" class="accordion-collapse collapse" aria-labelledby="flush-heading4m" data-bs-parent="#accordion1">
+                                <div class="list-group list-group-flush">
+                                    <a href="#" class="list-group-item active">Простой элемент группы списка по умолчанию</a>
+                                    <a href="#" class="list-group-item">Простой элемент группы списка по умолчанию</a>
+                                    <a href="#" class="list-group-item">Простой элемент группы списка по умолчанию</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h5 class="p-2 mt-3 fw-bold">Женская одежда</h5>
+                <div class="ps-3">
+                    <div class="accordion" id="accordion2">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-heading1f">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse1f" aria-expanded="false" aria-controls="flush-collapse1f">
+                                    Верхняя одежда
+                                </button>
+                            </h2>
+                            <div id="flush-collapse1f" class="accordion-collapse collapse" aria-labelledby="flush-heading1f" data-bs-parent="#accordion2">
+                                <div class="list-group list-group-flush">
+                                    <a href="#" class="list-group-item active">Простой элемент группы списка по умолчанию</a>
+                                    <a href="#" class="list-group-item">Простой элемент группы списка по умолчанию</a>
+                                    <a href="#" class="list-group-item">Простой элемент группы списка по умолчанию</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-heading2f">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse2f" aria-expanded="false" aria-controls="flush-collapse2f">
+                                    Нижняя одежда
+                                </button>
+                            </h2>
+                            <div id="flush-collapse2f" class="accordion-collapse collapse" aria-labelledby="flush-heading2f" data-bs-parent="#accordion2">
+                                <div class="list-group list-group-flush">
+                                    <a href="#" class="list-group-item active">Простой элемент группы списка по умолчанию</a>
+                                    <a href="#" class="list-group-item">Простой элемент группы списка по умолчанию</a>
+                                    <a href="#" class="list-group-item">Простой элемент группы списка по умолчанию</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-heading3f">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse3f" aria-expanded="false" aria-controls="flush-collapse3f">
+                                    Обувь
+                                </button>
+                            </h2>
+                            <div id="flush-collapse3f" class="accordion-collapse collapse" aria-labelledby="flush-heading3f" data-bs-parent="#accordion2">
+                                <div class="list-group list-group-flush">
+                                    <a href="#" class="list-group-item active">Простой элемент группы списка по умолчанию</a>
+                                    <a href="#" class="list-group-item">Простой элемент группы списка по умолчанию</a>
+                                    <a href="#" class="list-group-item">Простой элемент группы списка по умолчанию</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-heading4f">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4f" aria-expanded="false" aria-controls="flush-collapse4f">
+                                    Акссесуары
+                                </button>
+                            </h2>
+                            <div id="flush-collapse4f" class="accordion-collapse collapse" aria-labelledby="flush-heading4f" data-bs-parent="#accordion2">
+                                <div class="list-group list-group-flush">
+                                    <a href="#" class="list-group-item active">Простой элемент группы списка по умолчанию</a>
+                                    <a href="#" class="list-group-item">Простой элемент группы списка по умолчанию</a>
+                                    <a href="#" class="list-group-item">Простой элемент группы списка по умолчанию</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="d-none d-md-flex col-9 col-lg-10">
@@ -47,8 +168,14 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="sign_in" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="icon-user-circle-o"></i><br>Войти</a>
                     <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="sign_in">
-                        <li><a class="dropdown-item" href="#">Войти</a></li>
-                        <li><a class="dropdown-item" href="#">Регистрация</a></li>
+                        @guest()
+                            <li><a class="dropdown-item" href="{{route('getLogin')}}">Войти</a></li>
+                            <li><a class="dropdown-item" href="{{route('getRegister')}}">Регистрация</a></li>
+                        @endguest
+                        @auth()
+                            <li><a class="dropdown-item" href="#">Кабинет</a></li>
+                            <li><a class="dropdown-item" href="{{route('logout')}}">Выйти</a></li>
+                        @endauth
                     </ul>
                 </li>
                 <li class="nav-item"><a class="nav-link" href="#"><i class="icon-heart-empty"></i><br>Избранное</a></li>
@@ -68,8 +195,14 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="sign_in" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="icon-user-circle-o"></i><br>Войти</a>
                         <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="sign_in">
-                            <li><a class="dropdown-item" href="#">Войти</a></li>
-                            <li><a class="dropdown-item" href="#">Регистрация</a></li>
+                            @guest()
+                                <li><a class="dropdown-item" href="{{route('getLogin')}}">Войти</a></li>
+                                <li><a class="dropdown-item" href="{{route('getRegister')}}">Регистрация</a></li>
+                            @endguest
+                            @auth()
+                                <li><a class="dropdown-item" href="#">Кабинет</a></li>
+                                <li><a class="dropdown-item" href="{{route('logout')}}">Выйти</a></li>
+                            @endauth
                         </ul>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="#"><i class="icon-heart-empty"></i><br>Избранное</a></li>

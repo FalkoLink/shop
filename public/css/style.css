@@ -35,6 +35,27 @@ header i{
 header #inane{
     height: 75px;
 }
+.offcanvas{
+    transition: 0.2s all ease-out;
+    width: 470px;
+}
+.accordion{
+    max-width: 400px;
+}
+.accordion-button{
+    transition: .05s all ease-out;
+}
+.accordion-button:hover{
+    background: var(--bs-gray);
+    color: #fff;
+}
+.accordion-button::after{
+    transition: .15s all ease-out;
+}
+.accordion-button:hover::after{
+    background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
 
 /*Preview*/
 .container-fluid{
