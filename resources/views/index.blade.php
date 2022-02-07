@@ -47,5 +47,5 @@
 @endsection
 
 @section('script')
-    <script src="js/mainJS.js"></script>
+    <script src="/js/mainJS.js"></script>
 @endsection

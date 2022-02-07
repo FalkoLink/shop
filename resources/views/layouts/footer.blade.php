@@ -2,7 +2,7 @@
     <div class="container-xxl">
         <div class="row pt-5">
             <div class="col-md-4 col-sm-6">
-                <h4 class="fw-bolder"><i class="icon-shop"></i>SHOP</h4>
+                <h4 class="fw-bolder"><i class="icon-shop"></i><span class="text-danger">HOT</span>SHOP</h4>
                 <p class="mt-5 mb-3">Просто, удобно и надежно!</p>
                 <div class="mb-5 d-flex">
                     <a class="link-light h3 me-4" href="#"><i class="icon-twitter"></i></a>

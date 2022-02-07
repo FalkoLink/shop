@@ -1,5 +1,6 @@
 a{
     text-decoration: none;
+    color: #000;
 }
 p{
     margin: 0;
@@ -43,6 +44,7 @@ header #inane{
     max-width: 400px;
 }
 .accordion-button{
+    box-shadow:0 .5rem 1rem rgba(0,0,0,.15);
     transition: .05s all ease-out;
 }
 .accordion-button:hover{
@@ -96,4 +98,68 @@ footer li:hover a::after{
     vertical-align: center;
     max-width: 500px;
     background: #fff;
+}
+
+/*card*/
+.strikeout {
+    position: relative;
+}
+.strikeout::after {
+    border-bottom: 0.125em solid red;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+.heart{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/*Product*/
+.box-photos .mini_photo img{
+    opacity: 1;
+    cursor:pointer;
+    transition: .2s all ease-out;
+    margin-bottom: 10px;
+}
+.box-photos .mini_photo img:hover{
+    opacity: 0.8;
+}
+#product_form #colors_select .text-center div:first-child{
+    width: 50px;
+    height: 50px;
+}
+#product_form .box_input{
+    width: 100px;
+}
+#product_form #colors_select .text-center .color_select{
+    box-shadow: 0 0 10px 1px deepskyblue;
+    transform: scale(1.2);
+}
+
+/*Profile*/
+#profile_sidebar{
+    height: 100vh;
+    overflow: hidden;
+}
+#profile_sidebar a{
+    color:#fff;
+    width: 100%;
+}
+#profile_sidebar li{
+    padding-left: 20px;
+    transition: .1s all ease-out;
+}
+#profile_sidebar li:not(.active):hover{
+    transform: translate(10px);
+}
+#profile_sidebar li.active{
+    background: #fff;
+    padding: 10px 0 10px 20px;
+}
+#profile_sidebar li.active a{
+    color: #000;
 }
